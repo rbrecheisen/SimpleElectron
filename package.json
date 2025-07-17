@@ -1,0 +1,22 @@
+{
+  "name": "simpleelectron",
+  "version": "1.0.0",
+  "description": "Simple Electron app for practice",
+  "main": "app\\main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbrecheisen/SimpleElectron.git"
+  },
+  "author": "Ralph Brecheisen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rbrecheisen/SimpleElectron/issues"
+  },
+  "homepage": "https://github.com/rbrecheisen/SimpleElectron#readme",
+  "dependencies": {
+    "electron": "^37.2.3"
+  }
+}
