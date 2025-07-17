@@ -2,19 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta 
+        <!-- <meta 
             http-equiv="Content-Security-Policy"
-            content="
-                default-src 'self';
-                script-src 'self'
-            ">
+            content="default-src 'self'; script-src 'self'
+        "> -->
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>SimpleElectron</title>
     </head>
     <body>
         <h1>Hello from Electron!</h1>
         <button class="alert">Get current directory</button>
-        <!-- <p id="info"></p> -->
+        <script src="renderer.js"></script>
     </body>
-    <script src="renderer.js"></script>
 </html>

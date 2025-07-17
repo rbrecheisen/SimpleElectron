@@ -30,17 +30,3 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
-
-// // when app is ready, print message to console. This the local terminal, not the webbrowser!
-// // Electron apps run locally and do not need a webbrowser.
-// app.on('ready', () => {
-//     console.log(__dirname);
-//     main_window = new BrowserWindow({
-//         webPreferences: {
-//             contextIsolation: true,
-//             nodeIntegration: false,
-//             preload: path.join(__dirname, 'preload.js')
-//         }
-//     });
-//     main_window.loadFile(path.join(__dirname, 'index.html'));
-// });
